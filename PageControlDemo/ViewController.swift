@@ -32,7 +32,7 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         scrollView.contentSize = CGSize(width: frame.size.width * CGFloat(numOfPages), height: frame.size.height)
         
         
-        for index  in 0..<numOfPages {
+        for index in 0..<numOfPages {
             let imageView = UIImageView(image: UIImage(named: "guide_image\(index + 1)"))
             imageView.frame = CGRect(x: frame.size.width * CGFloat(index), y: 0, width: frame.size.width, height: frame.size.height)
             
