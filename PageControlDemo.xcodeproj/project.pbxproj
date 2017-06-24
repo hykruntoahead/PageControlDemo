@@ -15,6 +15,7 @@
 		263AD8891EFE0AA300863490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263AD8871EFE0AA300863490 /* LaunchScreen.storyboard */; };
 		263AD8941EFE0AA300863490 /* PageControlDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263AD8931EFE0AA300863490 /* PageControlDemoTests.swift */; };
 		263AD89F1EFE0AA300863490 /* PageControlDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263AD89E1EFE0AA300863490 /* PageControlDemoUITests.swift */; };
+		263AD8AD1EFE1E1800863490 /* PageCtlDotSizeEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263AD8AC1EFE1E1800863490 /* PageCtlDotSizeEdit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		263AD89A1EFE0AA300863490 /* PageControlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageControlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		263AD89E1EFE0AA300863490 /* PageControlDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlDemoUITests.swift; sourceTree = "<group>"; };
 		263AD8A01EFE0AA300863490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263AD8AC1EFE1E1800863490 /* PageCtlDotSizeEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCtlDotSizeEdit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				263AD8871EFE0AA300863490 /* LaunchScreen.storyboard */,
 				263AD88A1EFE0AA300863490 /* Info.plist */,
 				263AD8821EFE0AA300863490 /* PageControlDemo.xcdatamodeld */,
+				263AD8AC1EFE1E1800863490 /* PageCtlDotSizeEdit.swift */,
 			);
 			path = PageControlDemo;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				263AD87E1EFE0AA300863490 /* ViewController.swift in Sources */,
 				263AD87C1EFE0AA300863490 /* AppDelegate.swift in Sources */,
 				263AD8841EFE0AA300863490 /* PageControlDemo.xcdatamodeld in Sources */,
+				263AD8AD1EFE1E1800863490 /* PageCtlDotSizeEdit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
